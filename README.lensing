@@ -7,17 +7,17 @@ python bin.src/generate_lensed_hosts_sne.py
 You can change the default location of these directories by running the commands
  instead with the arguments:
 
-python sims_GCRCatSimInterface/bin.src/generate_lensed_hosts_agn.py --outdir <pa
+python bin.src/generate_lensed_hosts_agn.py --outdir <pa
 th_to_output>
-python sims_GCRCatSimInterface/bin.src/generate_lensed_hosts_sne.py --outdir <pa
+python bin.src/generate_lensed_hosts_sne.py --outdir <pa
 th_to_output>
 
 The default location of the output is sims_GCRCatSimInterface/data/outputs. Ther
-e are 4 subdirectories, called:
-"<path_to_output>/agn_lensed_bulges"
-"<path_to_output>/agn_lensed_disks"
-"<path_to_output>/sne_lensed_bulges"
-"<path_to_output>/sne_lensed_disks"
+e are 4 subdirectories, called (by default):
+"sims_GCRCatSimInterface/data/outputs/agn_lensed_bulges"
+"sims_GCRCatSimInterface/data/outputs/agn_lensed_disks"
+"sims_GCRCatSimInterface/data/outputs/sne_lensed_bulges"
+"sims_GCRCatSimInterface/data/outputs/sne_lensed_disks"
 
 The FITS stamps that are generated are named as "<SystemID>_<Lensed magnitude>_<
 bulge/disk>.fits"

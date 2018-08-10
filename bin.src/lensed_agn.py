@@ -13,4 +13,3 @@ args = parser.parse_args()
 from desc.sims.GCRCatSimInterface import generate_lensed_hosts_agn
 
 generate_lensed_hosts_agn = generate_lensed_hosts_agn(args.outdir)
-
